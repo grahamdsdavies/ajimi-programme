@@ -140,9 +140,7 @@ It is the part of cooking that happens after the applause, when what remains is 
 
 ## Good to know
 
-Our photo and video team will be with us most days. If you'd rather not be filmed at any point, just tell one of us.
-
-Times are a guide. Rural Japan runs on the weather, the catch and the people we visit, so we'll keep you posted each evening for the next day.
+Our photo and video team will be with us most days, and TV channels and Newspapers will cover certain program points. If you'd rather not be filmed at any point, just tell one of us.
 
 **Reach us in the ajimi WhatsApp community.** It's the quickest way to get hold of the team during the week, whether you're running late, lost or need something.
 
