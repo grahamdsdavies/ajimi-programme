@@ -71,7 +71,7 @@ The fish auction only fits half of us at a time, so you go once. The other group
 - **Group A · Mon 19** Auction at 07:00, free morning on Wed 21
 - **Group B · Wed 21** Auction at 07:00, free morning on Mon 19
 
-We will split you into these two groups once the program has started.
+We will split you into these two groups once the programme has started.
 
 ## Meals
 
@@ -90,7 +90,7 @@ We will split you into these two groups once the program has started.
 
 ## Programme pillars
 
-These six pillars define what ajimi academy stands for and has helped us shape the programme we share with you. Tap one to read more.
+These six pillars define what ajimi academy stands for and have helped us shape the programme we share with you. Tap one to read more.
 
 + **Early mornings** Before the sun has risen, the fishermen of Owase are already on the water. To learn from those around us, we need to break our own schedules and show ==adaptability==: a willingness to set our rhythm aside and meet new places and new people on their own terms.
 + **Secret ingredient** A dish is never just the collection of its ingredients; it is an expression of the soil, season and hands that brought it to life. It is ==curiosity== that sends us looking for the secrets that take a dish from "delicious" to something beyond.
@@ -103,7 +103,7 @@ These six pillars define what ajimi academy stands for and has helped us shape t
 
 Our photo and video team will be with us most days, and TV channels and Newspapers will cover certain program points. If you'd rather not be filmed at any point, just tell one of us.
 
-**Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can relive the week together. The album is just for us: we won't use anything publicly without asking you first.
+**Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can see the week together. We won't use any images shared here publicly without permission, consider this a place to share the casual behind the scenes photos of the program.
 
 **Reach us in the ajimi WhatsApp community.** It's the quickest way to get hold of the team during the week, whether you're running late, lost or need something.
 
