@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Day-by-day programme for the ajimi academy 2026 chef cohort in Owase.">
+<link rel="icon" href="logo.png" type="image/png">
+<title>ajimi academy Owase 2026 Programme</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=BIZ+UDPGothic:wght@400;700&display=swap">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: warm rice-paper pages in the ajimi hand-drawn ink style; sticky day strip, one day per page, a soft hand-inked timeline; print shows every day on its own page. Single light theme by choice. */
+:root{
+  --paper:#FAF4E8;      /* warm rice paper */
+  --card:#FFFCF6;
+  --ink:#2A221B;        /* brush ink, warm black */
+  --ink-soft:#4F453B;
+  --rule:#E7DAC4;
+  --amanatsu:#9A5D05;   /* amanatsu rind, for text */
+  --amanatsu-wash:#FBE5BC;
+  --leaf:#3F5A2B;
+  --leaf-wash:#E6EDD6;
+  --warn:#A63A1F;        /* persimmon, for warnings */
+  --warn-wash:#FBE4DA;
+  --display:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",Georgia,serif;
+  --body:"BIZ UDPGothic","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.ink{display:block;max-width:100%;height:auto}
+
+/* sticky day strip */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:2px dotted var(--rule)}
+.bar .wrap{padding-block:10px 8px}
+.brand{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--ink-soft)}
+.brand img{height:30px;width:auto}
+.days{display:flex;gap:6px;overflow-x:auto;margin-top:8px;padding-bottom:4px;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1.5px solid var(--rule);background:var(--card);color:var(--ink);border-radius:18px;padding:5px 10px 4px;font-family:var(--body);cursor:pointer;display:flex;flex-direction:column;align-items:center;min-width:50px;line-height:1.15}
+.chip small{font-size:11px;color:var(--ink-soft)}
+.chip b{font-family:var(--display);font-size:20px;font-weight:700}
+.chip.flex b::after{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--amanatsu);vertical-align:top;margin:3px 0 0 2px}
+.chip.info b{font-size:14px;padding-block:3px}
+.chip[aria-selected="true"]{background:var(--amanatsu-wash);border-color:var(--ink)}
+.chip:focus-visible,.navbtn:focus-visible,a:focus-visible{outline:2px solid var(--amanatsu);outline-offset:2px}
+
+/* day page */
+.page{padding-block:26px 44px}
+.datehead{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:end}
+.bignum{isolation:isolate;font-family:var(--display);font-weight:700;font-size:76px;line-height:.85;color:var(--ink);position:relative}
+.bignum::after{content:"";position:absolute;left:-6px;right:-6px;bottom:2px;height:22px;background:var(--amanatsu-wash);z-index:-1;border-radius:12px 4px 14px 6px}
+.dow{font-size:13px;color:var(--ink-soft)}
+.dow span{font-family:var(--display);margin-left:6px}
+h1,h2{font-family:var(--display);font-weight:700;text-wrap:balance;margin:0}
+h2.daytitle{font-size:27px;line-height:1.25;margin-top:2px}
+.lede{margin:14px 0 0;color:var(--ink-soft);max-width:60ch}
+
+.glance{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0 0;padding:0}
+.glance div{background:var(--card);border:1.5px solid var(--rule);border-radius:14px 10px 16px 12px;padding:10px 12px;min-width:0}
+.glance dt{font-size:12px;color:var(--ink-soft)}
+.glance dd{margin:1px 0 0;font-weight:700;font-variant-numeric:tabular-nums;font-size:15px}
+@media (min-width:520px){.glance{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.notice{margin-top:14px;background:var(--amanatsu-wash);border-radius:14px 8px 14px 10px;padding:11px 14px;font-size:14px}
+
+/* timeline */
+.tl{list-style:none;margin:28px 0 0;padding:0}
+.stop,.drive{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px}
+.time{font-weight:700;font-size:15px;font-variant-numeric:tabular-nums;padding-top:1px;line-height:1.3}
+.time em{display:block;font-style:normal;font-weight:400;color:var(--ink-soft);font-size:13px}
+.body{border-left:2.5px solid var(--ink);padding:0 0 24px 18px;position:relative;min-width:0}
+.body::before{content:"";position:absolute;left:-8px;top:5px;width:13px;height:13px;border-radius:52% 48% 55% 45%;background:var(--paper);border:2.5px solid var(--ink)}
+.stop.key .body::before{background:var(--amanatsu-wash);border-color:var(--ink);width:15px;height:15px;left:-9px}
+.stop.free .body{border-left:2.5px dotted var(--ink-soft)}
+.stop.free .body::before{border-color:var(--ink-soft)}
+.kind{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--amanatsu);margin-bottom:1px}
+.learn{margin:9px 0 0;padding:8px 12px;background:var(--card);border:1.5px solid var(--rule);border-radius:12px 8px 12px 10px;font-size:14px;max-width:62ch}
+.learn .ico{flex:none;color:var(--amanatsu)}
+.learn b{display:flex;align-items:center;gap:6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)}
+.stop h3{margin:0;font-size:17px;line-height:1.4;font-weight:700}
+.where{margin-top:3px;font-size:14px;color:var(--ink-soft);display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline}
+.where .jp{font-family:var(--display)}
+.where a{color:var(--ink);font-weight:700;font-size:13px;text-decoration:none;background:linear-gradient(transparent 60%,var(--amanatsu-wash) 60%);padding-inline:2px;white-space:nowrap}
+.stop p{margin:7px 0 0;max-width:62ch;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-size:12px;border-radius:999px;padding:2px 10px;background:var(--leaf-wash);color:var(--leaf);font-weight:700}
+.tag.pay{background:var(--amanatsu-wash);color:var(--amanatsu)}
+.tag.grp{background:transparent;border:1.5px solid var(--ink);color:var(--ink)}
+.tag.opt{background:transparent;border:1.5px dashed var(--ink-soft);color:var(--ink-soft)}
+.drive .body{border-left:2.5px dashed var(--rule);padding:0 0 20px 18px}
+.drive .body::before{display:none}
+.drive span{font-size:13px;color:var(--ink-soft);display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap}
+.drive .ico{flex:none}
+.depart{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px}
+.depart .time{padding-top:9px}
+.dtime{display:inline-block;background:var(--ink);color:var(--paper);font-weight:700;font-size:15px;border-radius:8px;padding:2px 6px;font-variant-numeric:tabular-nums;line-height:1.3}
+.depart .body{border-left:2.5px solid var(--ink);padding:0 0 22px 18px;position:relative;min-width:0}
+.depart .body::before{content:"";position:absolute;left:-8px;top:12px;width:13px;height:13px;border-radius:3px;background:var(--ink)}
+.dcard{background:var(--amanatsu-wash);border-radius:14px 8px 14px 10px;padding:9px 14px 11px}
+.dhead{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amanatsu)}
+.dhead .ico{color:var(--ink)}
+.dtext{font-weight:700;font-size:16px;line-height:1.4;margin-top:3px}
+.dcard p{margin:5px 0 0;font-size:14px}
+.dcard .tags{margin-top:7px}
+.notice.inset{margin:10px 0 0;max-width:62ch}
+.warn{display:flex;gap:10px;align-items:flex-start;margin:10px 0 0;padding:10px 12px;background:var(--warn-wash);border:1.5px solid var(--warn);border-radius:12px 8px 12px 10px;font-size:14px;max-width:62ch}
+.warn .ico{flex:none;color:var(--warn);margin-top:2px}
+.warn b{color:var(--warn)}
+.split{list-style:none;margin:0 0 26px;display:grid;gap:12px}
+.splithead{font-family:var(--display);font-weight:700;font-size:19px;line-height:1.3}
+.lane{background:var(--card);border:1.5px solid var(--rule);border-radius:16px 10px 18px 12px;padding:12px 12px 0;min-width:0}
+.lanehead{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1.5px solid var(--ink);border-radius:999px;padding:2px 10px;margin-bottom:12px}
+.lane > p{margin:0 0 14px;font-size:15px;max-width:62ch}
+.lane .tl{margin:0}
+.lane .tl:empty{display:none}
+.lane .stop:last-child .body,.lane .depart:last-child .body{padding-bottom:14px}
+.drive a{color:var(--ink);font-weight:700;text-decoration:none;background:linear-gradient(transparent 60%,var(--amanatsu-wash) 60%);padding-inline:2px}
+
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:28px;border-top:2px dotted var(--rule);padding-top:16px}
+.navbtn{background:var(--card);border:1.5px solid var(--rule);border-radius:18px;padding:9px 16px;color:var(--ink);font-family:var(--body);font-weight:700;font-size:14px;cursor:pointer;min-width:0}
+.dayfoot{margin-top:26px;height:64px;background-repeat:repeat-x;background-size:76px auto;background-position:0 -150px;opacity:.75}
+
+/* cover */
+.hero{display:block}
+.hero .pattern{width:86px;height:300px;object-fit:cover;object-position:top}
+.hero .logo{width:min(100%,320px)}
+.cover .dates{font-family:var(--display);font-size:20px;margin-top:14px}
+.sec{margin-top:30px}
+.sec h2{font-size:22px}
+.sec h2::after{content:"";display:block;height:3px;width:56px;margin-top:4px;background:var(--amanatsu-wash);border-radius:3px}
+.sec p{margin:10px 0 0;max-width:62ch}
+.mapsm{width:380px;max-width:100%;margin-top:22px}
+.map{margin-top:12px;background:var(--card);border:1.5px solid var(--rule);border-radius:18px 12px 20px 14px;padding:12px}
+.bring{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:10px}
+.bring li{background:var(--card);border:1.5px solid var(--rule);border-radius:16px 10px 18px 12px;padding:12px 14px}
+.bring b{display:block}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:12px}
+.groups div{background:var(--card);border:1.5px solid var(--rule);border-radius:16px 10px 18px 12px;padding:12px 14px;min-width:0}
+.groups b{font-family:var(--display);font-size:18px}
+.groups small{display:block;color:var(--ink-soft);font-size:14px;margin-top:2px}
+.hours{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:12px;font-variant-numeric:tabular-nums}
+.hours b{font-family:var(--display);font-size:32px;display:block;line-height:1.1}
+.hours span{font-size:13px;color:var(--ink-soft)}
+.pillars{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.pillars span{font-family:var(--display);font-size:15px;background:var(--card);border:1.5px solid var(--rule);border-radius:999px;padding:3px 12px}
+
+@media (prefers-reduced-motion:no-preference){.page{animation:in .3s ease-out}@keyframes in{from{opacity:.5;transform:translateY(4px)}to{opacity:1;transform:none}}}
+@media print{
+  .bar,.pager{display:none!important}
+  .page{display:block!important;break-after:page;padding-block:0}
+}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <div class="brand"><img src="logo.png" alt="ajimi academy" id="logo-sm"><span>Owase · 18–25 Oct 2026</span></div>
+    <nav class="days" id="days" role="tablist" aria-label="Programme days"></nav>
+  </div>
+</header>
+
+<main class="wrap" id="pages">
+  <section class="page"><p class="lede">Loading the programme…</p></section>
+</main>
+
+<script>
+/* The programme text lives in programme.md next to this file. Edit that, not this. */
+const JP = {Sun:"日",Mon:"月",Tue:"火",Wed:"水",Thu:"木",Fri:"金",Sat:"土"};
+const esc = s => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+function inline(s){
+  return esc(s)
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")
+    .replace(/(^|[^*])\*([^*\s][^*]*?)\*/g,"$1<em>$2</em>");
+}
+const DAY_RE = /^#\s+(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+(\d{1,2})\s*[·\-–:]\s*(.+)$/;
+const SESSION_RE = /^###\s+(?:(\d{1,2}:\d{2})(?:\s*[–-]\s*(\d{1,2}:\d{2}))?\s*·\s*)?(.+)$/;
+const FIELD_RE = /^(Place|Type|Learn|Group|Tags|Style|Flexible):\s*(.*)$/i;
+
+function parse(src){
+  src = src.replace(/<!--[\s\S]*?-->[ \t]*$/gm,"").replace(/\r/g,"");
+  const lines = src.split("\n");
+  const doc = {info:null, days:[]};
+  let sec = null, item = null, block = null;
+  const flush = () => { block = null; };
+  const target = () => item || sec;
+  for(const raw of lines){
+    const line = raw.trimEnd();
+    let m;
+    if((m = line.match(DAY_RE))){
+      sec = {kind:"day", dow:m[1], n:+m[2], title:m[3].trim(), id:"d"+m[2], intro:[], glance:[], notice:[], items:[], flex:false};
+      doc.days.push(sec); item = null; flush(); continue;
+    }
+    if(/^#\s+/.test(line) && !/^##/.test(line)){
+      sec = {kind:"info", title:line.replace(/^#\s+/,""), blocks:[]}; doc.info = sec; item = null; flush(); continue;
+    }
+    if(!sec) continue;
+    if(sec.kind === "info"){
+      if((m = line.match(/^##\s+(.+)$/))){ sec.blocks.push({t:"h2", text:m[1]}); flush(); continue; }
+      if((m = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/))){ sec.blocks.push({t:"img", alt:m[1], src:m[2]}); flush(); continue; }
+      if((m = line.match(/^[-*]\s+(.*)$/))){
+        if(!block || block.t !== "ul"){ block = {t:"ul", items:[]}; sec.blocks.push(block); }
+        block.items.push(m[1]); continue;
+      }
+      if(line.trim()===""){ flush(); continue; }
+      if(!block || block.t !== "p"){ block = {t:"p", lines:[]}; sec.blocks.push(block); }
+      block.lines.push(line.trim()); continue;
+    }
+    // day section
+    if((m = line.match(/^===\s*(.*)$/))){
+      if(m[1].trim()){ sec.items.push({splitStart:m[1].trim()}); }
+      else { sec.items.push({splitEnd:true}); sec.lane = null; }
+      item = null; flush(); continue;
+    }
+    if((m = line.match(/^==\s+(.+)$/))){
+      sec.lane = {lane:m[1].trim(), para:[]}; sec.items.push(sec.lane); item = null; flush(); continue;
+    }
+    if((m = line.match(SESSION_RE))){
+      item = {t:m[1]||"", e:m[2]||"", h:m[3].trim(), para:[], tags:[]};
+      sec.items.push(item); flush(); continue;
+    }
+    if((m = line.match(/^-->\s*(.+)$/))){
+      const dm = m[1].match(/^(\d{1,2}:\d{2})\s*·?\s*(.+)$/);
+      if(dm){ item = {dep:true, t:dm[1], h:dm[2], para:[], tags:[]}; sec.items.push(item); }
+      else { sec.items.push({d:m[1]}); item = null; }
+      flush(); continue;
+    }
+    if((m = line.match(FIELD_RE))){
+      const k = m[1].toLowerCase(), v = m[2].trim();
+      if(k==="flexible" && !item){ sec.flex = /^(yes|true|y)$/i.test(v); continue; }
+      if(item){
+        if(k==="place"){ const p = v.split(/\s*·\s*(?=https?:)/); item.place = p[0]; item.map = p[1]||""; }
+        else if(k==="type") item.type = v;
+        else if(k==="learn") item.learn = v;
+        else if(k==="group") item.grp = v;
+        else if(k==="tags") item.tags = v.split(/[;,]/).map(x=>x.trim()).filter(Boolean);
+        else if(k==="style") item.style = v.toLowerCase();
+        continue;
+      }
+    }
+    if(item && (m = line.match(/^>\s?(.+)$/))){ (item.note = item.note || []).push(m[1]); flush(); continue; }
+    if(item && (m = line.match(/^!\s+(.+)$/))){ (item.warn = item.warn || []).push(m[1]); flush(); continue; }
+    if(!item && (m = line.match(/^[-*]\s+([^:]+):\s*(.+)$/))){ sec.glance.push([m[1].trim(), m[2].trim()]); continue; }
+    if(!item && (m = line.match(/^>\s?(.*)$/))){ sec.notice.push(m[1]); continue; }
+    if(line.trim()===""){ flush(); continue; }
+    const holder = item ? item.para : (sec.lane ? sec.lane.para : sec.intro);
+    if(!block || block.t !== "p" || block.holder !== holder){ block = {t:"p", lines:[], holder}; holder.push(block); }
+    block.lines.push(line.trim());
+  }
+  return doc;
+}
+
+const para = b => `<p>${b.lines.map(inline).join("<br>")}</p>`;
+function renderList(items){
+  const bolds = items.map(x => x.match(/^\*\*(.+?)\*\*\s*(.*)$/));
+  if(bolds.every(b => b && /^\d+$/.test(b[1])))
+    return `<div class="hours">${bolds.map(b=>`<div><b>${esc(b[1])}</b><span>${inline(b[2])}</span></div>`).join("")}</div>`;
+  if(bolds.every(b => !b) && items.every(x => x.split(/\s+/).length <= 4))
+    return `<div class="pillars">${items.map(x=>`<span>${inline(x)}</span>`).join("")}</div>`;
+  return `<ul class="bring">${items.map((x,i)=> bolds[i] ? `<li><b>${inline(bolds[i][1])}</b>${inline(bolds[i][2])}</li>` : `<li>${inline(x)}</li>`).join("")}</ul>`;
+}
+function renderInfo(info){
+  let html = `<section class="cover"><div class="hero"><img class="ink logo" src="logo.png" alt="ajimi academy"><h1 style="font-size:30px;margin-top:18px">${inline(info.title)}</h1>`;
+  let pCount = 0, inSec = false, heroOpen = true;
+  for(const b of info.blocks){
+    if(b.t === "h2"){
+      if(heroOpen){ html += `</div>`; heroOpen = false; }
+      if(inSec) html += `</div>`;
+      html += `<div class="sec"><h2>${inline(b.text)}</h2>`; inSec = true; continue;
+    }
+    if(b.t === "img"){
+      if(heroOpen){ html += `</div>`; heroOpen = false; }
+      html += `<img class="ink mapsm" src="${esc(b.src)}" alt="${esc(b.alt)}">`; continue;
+    }
+    if(b.t === "ul"){ html += renderList(b.items); continue; }
+    if(b.t === "p"){
+      if(heroOpen){
+        pCount++;
+        html += pCount === 1 ? `<div class="dates">${b.lines.map(inline).join("<br>")}</div>` : `<p class="lede">${b.lines.map(inline).join("<br>")}</p>`;
+      } else html += para(b);
+    }
+  }
+  if(heroOpen) html += `</div>`;
+  if(inSec) html += `</div>`;
+  return html + `</section>`;
+}
+const ICON = {
+  bus:'<path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/>',
+  car:'<path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/>',
+  walk:'<path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"/><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"/><path d="M16 17h4"/><path d="M4 13h4"/>'
+};
+function mode(t){ return /walk/i.test(t) ? "walk" : /bus/i.test(t) ? "bus" : "car"; }
+const icon = (k, size) => `<svg class="ico" viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>`;
+function tagKind(t){ return /\bpa(y|id)\b/i.test(t) ? "pay" : /optional/i.test(t) ? "opt" : ""; }
+function renderItem(it){
+  if(it.d) return `<li class="drive"><div></div><div class="body"><span>${icon(mode(it.d),14)}${inline(it.d)}</span></div></li>`;
+  if(it.dep){
+    const tags = [...(it.grp?[[`Group ${it.grp}`,"grp"]]:[]), ...it.tags.map(t=>[t,tagKind(t)])];
+    return `<li class="depart"><div class="time"><span class="dtime">${esc(it.t)}</span></div><div class="body"><div class="dcard">`
+      + `<div class="dhead">${icon(mode(it.h),18)}<span>Departure</span></div>`
+      + `<div class="dtext">${inline(it.h)}</div>${it.para.map(para).join("")}`
+      + (tags.length?`<div class="tags">${tags.map(([l,k])=>`<span class="tag ${k}">${inline(l)}</span>`).join("")}</div>`:"")
+      + `</div></div></li>`;
+  }
+  const cls = ["stop", it.style==="key"?"key":"", it.style==="free"?"free":""].join(" ");
+  const tags = [...(it.grp?[[`Group ${it.grp}`,"grp"]]:[]), ...it.tags.map(t=>[t,tagKind(t)])];
+  const where = it.place ? `<div class="where"><span>${inline(it.place)}</span>${it.map?`<a href="${esc(it.map)}" target="_blank" rel="noopener">Open map</a>`:""}</div>` : "";
+  return `<li class="${cls}"><div class="time">${esc(it.t)}${it.e?`<em>–${esc(it.e)}</em>`:""}</div><div class="body">`
+    + (it.type?`<div class="kind">${inline(it.type)}</div>`:"")
+    + `<h3>${inline(it.h)}</h3>${where}${it.para.map(para).join("")}`
+    + (it.note?`<div class="notice inset">${it.note.map(inline).join("<br>")}</div>`:"")
+    + (it.warn?it.warn.map(w=>`<div class="warn"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><div>${inline(w)}</div></div>`).join(""):"")
+    + (it.learn?`<div class="learn"><b><svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>Learning point</b>${inline(it.learn)}</div>`:"")
+    + (tags.length?`<div class="tags">${tags.map(([l,k])=>`<span class="tag ${k}">${inline(l)}</span>`).join("")}</div>`:"")
+    + `</div></li>`;
+}
+function renderItems(items){
+  let html = "", inSplit = false, inLane = false;
+  const closeLane = () => { if(inLane){ html += `</ol></div>`; inLane = false; } };
+  for(const it of items){
+    if(it.splitStart){ closeLane(); if(inSplit) html += `</li>`; html += `<li class="split"><div class="splithead">${inline(it.splitStart)}</div>`; inSplit = true; continue; }
+    if(it.lane){ closeLane(); html += `<div class="lane"><div class="lanehead">${inline(it.lane)}</div>${it.para.map(para).join("")}<ol class="tl">`; inLane = true; continue; }
+    if(it.splitEnd){ closeLane(); if(inSplit){ html += `</li>`; inSplit = false; } continue; }
+    html += renderItem(it);
+  }
+  closeLane(); if(inSplit) html += `</li>`;
+  return html;
+}
+function renderDay(d){
+  return `<section class="page" id="${d.id}" role="tabpanel" aria-label="${d.dow} ${d.n} October">
+    <div class="datehead"><div class="bignum">${d.n}</div><div><div class="dow">${d.dow} · Oct<span>${JP[d.dow]||""}曜日</span></div><h2 class="daytitle">${inline(d.title)}</h2></div></div>
+    ${d.intro.map(b=>`<p class="lede">${b.lines.map(inline).join("<br>")}</p>`).join("")}
+    ${d.glance.length?`<dl class="glance">${d.glance.map(([k,v])=>`<div><dt>${inline(k)}</dt><dd>${inline(v)}</dd></div>`).join("")}</dl>`:""}
+    ${d.notice.length?`<div class="notice">${d.notice.map(inline).join("<br>")}</div>`:""}
+    <ol class="tl">${renderItems(d.items)}</ol>
+  </section>`;
+}
+
+function build(doc){
+  const order = [{id:"start",label:"Start",small:"Info"}, ...doc.days.map(d=>({id:d.id,label:d.n,small:d.dow,flex:d.flex}))];
+  const pages = document.getElementById("pages");
+  pages.innerHTML = `<section class="page" id="start" role="tabpanel" aria-label="Before you go">${doc.info?renderInfo(doc.info):""}</section>` + doc.days.map(renderDay).join("");
+  pages.querySelectorAll(".page").forEach((p,i)=>{
+    const prev = order[i-1], next = order[i+1];
+    p.insertAdjacentHTML("beforeend",`<div class="pager"><button class="navbtn" data-go="${prev?prev.id:""}" ${prev?"":"hidden"}>← ${prev?(prev.id==="start"?"Info":prev.small+" "+prev.label):""}</button><button class="navbtn" data-go="${next?next.id:""}" ${next?"":"hidden"}>${next?next.small+" "+next.label:""} →</button></div>`);
+  });
+  const strip = document.getElementById("days");
+  strip.innerHTML = order.map(o=>`<button class="chip ${o.id==="start"?"info":""} ${o.flex?"flex":""}" role="tab" id="tab-${o.id}" data-go="${o.id}" aria-selected="false"><small>${o.small}</small><b>${o.label}</b></button>`).join("");
+  let start = (location.hash||"").slice(1);
+  if(!start){
+    try{
+      const jst = new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo"}).format(new Date());
+      const m = jst.match(/^2026-10-(\d\d)$/);
+      if(m && document.getElementById("d"+(+m[1]))) start = "d"+(+m[1]);
+    }catch(e){}
+  }
+  show(start||"start",false);
+}
+function show(id, scroll){
+  if(!document.getElementById(id)) id = "start";
+  document.querySelectorAll(".page").forEach(p=>p.hidden = p.id!==id);
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-selected", c.dataset.go===id?"true":"false"));
+  const chip = document.getElementById("tab-"+id);
+  if(chip) chip.scrollIntoView({inline:"center",block:"nearest"});
+  if(scroll) window.scrollTo({top:0});
+  try{ history.replaceState(null,"","#"+id) }catch(e){}
+}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-go]"); if(b&&b.dataset.go) show(b.dataset.go,true)});
+window.addEventListener("beforeprint",()=>document.querySelectorAll(".page").forEach(p=>p.hidden=false));
+window.addEventListener("afterprint",()=>show((location.hash||"#start").slice(1),false));
+
+fetch("programme.md",{cache:"no-cache"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); })
+  .then(t=>build(parse(t)))
+  .catch(()=>{ document.getElementById("pages").innerHTML = `<section class="page"><p class="lede">The programme couldn't load. Check your connection and refresh, or ask us in the WhatsApp community.</p></section>`; });
+</script>
+
+</body>
+</html>
