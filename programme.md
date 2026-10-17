@@ -593,7 +593,7 @@ Thank you · Owase 2026
 Thank you for spending the week with us. Owase opened its boats, forests, fields and kitchens to you, and we hope a little of it travels home with you in the way you cook.
 
 <!-- Add a photo of Owase here: put the file next to programme.md and change the name below. Photos (.jpg) get a rounded frame. -->
-<!-- ![Owase bay from the hills at dawn](owase.jpg) -->
+![Colourful fishermen's big-catch flags strung across a canal in Owase under a clear blue sky](owase.jpg)
 
 ## What you learned
 
