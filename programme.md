@@ -58,7 +58,7 @@ When we travel on the Owase City Hall bus departing Tenmasou, we meet here. This
 
 ## Pace of the week
 
-Most days run as a group. **Tue 20 and Wed 21 are flexible:** feel free to skip any session you like, rest, or explore on your own. Just let us know in the whatsapp group chats. We will do our best to accomodate your wishes but our priority will be to running the program so pickups/dropoffs will have to be arranged as we go. Flexible days have a dot in the date bar.
+Most days run as a group. **Tue 20 and Wed 21 are flexible:** feel free to skip any session you like, rest, or explore on your own. Just let us know in the WhatsApp group chats. We will do our best to accommodate your wishes but our priority will be running the programme, so pickups/dropoffs will have to be arranged as we go. Flexible days have a dot in the date bar.
 
 **Thu 22 in Suzuka and Sat 24, open table day, are full days for everyone**, so use the flexible days to be well rested for them. 
 
@@ -101,9 +101,9 @@ These six pillars define what ajimi academy stands for and have helped us shape 
 
 ## Good to know
 
-Our photo and video team will be with us most days, and TV channels and Newspapers will cover certain program points. If you'd rather not be filmed at any point, just tell one of us.
+Our photo and video team will be with us most days, and TV channels and newspapers will cover certain programme points. If you'd rather not be filmed at any point, just tell one of us.
 
-**Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can see the week together. We won't use any images shared here publicly without permission, consider this a place to share the casual behind the scenes photos of the program.
+**Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can see the week together. We won't use any images shared here publicly without permission. Consider this a place to share the casual, behind-the-scenes photos of the programme.
 
 **Reach us in the ajimi WhatsApp community.** It's the quickest way to get hold of the team during the week, whether you're running late, lost or need something.
 
