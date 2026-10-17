@@ -151,6 +151,7 @@ mark{background:var(--amanatsu-wash);color:inherit;padding:0 3px;border-radius:4
 .sec h2::after{content:"";display:block;height:3px;width:56px;margin-top:4px;background:var(--amanatsu-wash);border-radius:3px}
 .sec p{margin:10px 0 0;max-width:62ch}
 .mapsm{display:block;width:100%;height:auto;margin-top:22px}
+.photo{display:block;width:100%;height:auto;margin-top:22px;border:1.5px solid var(--rule);border-radius:18px 12px 20px 14px}
 .map{margin-top:12px;background:var(--card);border:1.5px solid var(--rule);border-radius:18px 12px 20px 14px;padding:12px}
 .bring{list-style:none;padding:0;margin:12px 0 0;display:grid;gap:10px}
 .bring li{background:var(--card);border:1.5px solid var(--rule);border-radius:16px 10px 18px 12px;padding:12px 14px}
@@ -202,7 +203,7 @@ const FIELD_RE = /^(Place|Type|Learn|Group|Tags|Style|Flexible):\s*(.*)$/i;
 function parse(src){
   src = src.replace(/<!--[\s\S]*?-->[ \t]*$/gm,"").replace(/\r/g,"");
   const lines = src.split("\n");
-  const doc = {info:null, days:[]};
+  const doc = {info:null, days:[], after:[]};
   let sec = null, item = null, block = null;
   const flush = () => { block = null; };
   const target = () => item || sec;
@@ -214,7 +215,7 @@ function parse(src){
       doc.days.push(sec); item = null; flush(); continue;
     }
     if(/^#\s+/.test(line) && !/^##/.test(line)){
-      sec = {kind:"info", title:line.replace(/^#\s+/,""), blocks:[]}; doc.info = sec; item = null; flush(); continue;
+      sec = {kind:"info", title:line.replace(/^#\s+/,""), blocks:[]}; if(doc.info) doc.after.push(sec); else doc.info = sec; item = null; flush(); continue;
     }
     if(!sec) continue;
     if(sec.kind === "info"){
@@ -296,7 +297,8 @@ function renderInfo(info){
     }
     if(b.t === "img"){
       if(heroOpen){ html += `</div>`; heroOpen = false; }
-      html += `<img class="ink mapsm" src="${esc(b.src)}" alt="${esc(b.alt)}">`; continue;
+      const photo = /\.(jpe?g|webp)$/i.test(b.src);
+      html += `<img class="${photo?"photo":"ink mapsm"}" src="${esc(b.src)}" alt="${esc(b.alt)}" loading="lazy">`; continue;
     }
     if(b.t === "ul"){ html += renderList(b.items); continue; }
     if(b.t === "acc"){
@@ -367,21 +369,24 @@ function renderDay(d){
 }
 
 function build(doc){
-  const order = [{id:"start",label:"Start",small:"Info"}, ...doc.days.map(d=>({id:d.id,label:d.n,small:d.dow,flex:d.flex}))];
+  const after = doc.after.map((a,i)=>({id:i?"after"+(i+1):"after",label:"End",small:"After",nav:"After the week",page:a}));
+  const order = [{id:"start",label:"Start",small:"Info",nav:"Info"}, ...doc.days.map(d=>({id:d.id,label:d.n,small:d.dow,flex:d.flex})), ...after];
   const pages = document.getElementById("pages");
-  pages.innerHTML = `<section class="page" id="start" role="tabpanel" aria-label="Before you go">${doc.info?renderInfo(doc.info):""}</section>` + doc.days.map(renderDay).join("");
+  pages.innerHTML = `<section class="page" id="start" role="tabpanel" aria-label="Before you go">${doc.info?renderInfo(doc.info):""}</section>` + doc.days.map(renderDay).join("")
+    + after.map(a=>`<section class="page" id="${a.id}" role="tabpanel" aria-label="${esc(a.page.title)}">${renderInfo(a.page)}</section>`).join("");
   pages.querySelectorAll(".page").forEach((p,i)=>{
     const prev = order[i-1], next = order[i+1];
-    p.insertAdjacentHTML("beforeend",`<div class="pager"><button class="navbtn" data-go="${prev?prev.id:""}" ${prev?"":"hidden"}>← ${prev?(prev.id==="start"?"Info":prev.small+" "+prev.label):""}</button><button class="navbtn" data-go="${next?next.id:""}" ${next?"":"hidden"}>${next?next.small+" "+next.label:""} →</button></div>`);
+    p.insertAdjacentHTML("beforeend",`<div class="pager"><button class="navbtn" data-go="${prev?prev.id:""}" ${prev?"":"hidden"}>← ${prev?(prev.nav||prev.small+" "+prev.label):""}</button><button class="navbtn" data-go="${next?next.id:""}" ${next?"":"hidden"}>${next?(next.nav||next.small+" "+next.label):""} →</button></div>`);
   });
   const strip = document.getElementById("days");
-  strip.innerHTML = order.map(o=>`<button class="chip ${o.id==="start"?"info":""} ${o.flex?"flex":""}" role="tab" id="tab-${o.id}" data-go="${o.id}" aria-selected="false"><small>${o.small}</small><b>${o.label}</b></button>`).join("");
+  strip.innerHTML = order.map(o=>`<button class="chip ${o.nav?"info":""} ${o.flex?"flex":""}" role="tab" id="tab-${o.id}" data-go="${o.id}" aria-selected="false"><small>${o.small}</small><b>${o.label}</b></button>`).join("");
   let start = (location.hash||"").slice(1);
   if(!start){
     try{
       const jst = new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo"}).format(new Date());
       const m = jst.match(/^2026-10-(\d\d)$/);
       if(m && document.getElementById("d"+(+m[1]))) start = "d"+(+m[1]);
+      else if(jst > "2026-10-25" && after.length) start = after[0].id;
     }catch(e){}
   }
   show(start||"start",false);

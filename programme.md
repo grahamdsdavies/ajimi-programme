@@ -4,6 +4,7 @@ Everything chefs read on the programme page comes from this file.
 Change the words, save, and the page updates about a minute after it is pushed.
 
   # Owase 2026 programme        first heading = the info page
+  # After the week              any later heading without a date = an extra page after the last day, written like the info page
   # Sun 18 · Arrive and meet    a new day: weekday, date, then the day's title
   Flexible: yes                 (optional, straight under a day heading) adds the dot in the date bar
   - Start: 08:30                list right after the intro = the four at-a-glance boxes
@@ -23,6 +24,7 @@ Change the words, save, and the page updates about a minute after it is pushed.
                                 (any lines under it, like Group: A or a sentence, attach to it)
   --> 15 min drive              a travel line between sessions (no time)
 
+Images: ![description](file.png) on the info pages. A .jpg photo gets a rounded frame.
 Text: **bold**, *italic*, [link text](https://...). A blank line starts a new paragraph.
 -->
 
@@ -583,3 +585,47 @@ For early trains. Tell the team the day before which run you need.
 --> 12:45 · Town hall bus to Owase Station from the [bus meeting point](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
 
 Second run. Check out of Tenmasou before you leave.
+
+# After the week
+
+Thank you · Owase 2026
+
+Thank you for spending the week with us. Owase opened its boats, forests, fields and kitchens to you, and we hope a little of it travels home with you in the way you cook.
+
+<!-- Add a photo of Owase here: put the file next to programme.md and change the name below. Photos (.jpg) get a rounded frame. -->
+<!-- ![Owase bay from the hills at dawn](owase.jpg) -->
+
+## What you learned
+
+49 contact hours of field study, workshops and dish development, from the people who know Owase best.
+
+- **The sea** How Owase's fish auction works, how a fishmonger buys and prepares fish, and how set-net fishing links the forest to the sea.
+- **The mountains** Foraging seasonal wild ingredients with care, the difference between plantation and biodiverse forest, and the culture of wild game.
+- **The fields** What's growing locally right now, and yuzu, amanatsu and finger lime from the farmers who grow them.
+- **The craft** Binchotan from the kiln, tamari aged five years in wooden barrels, sake from rice to bottle, washoku fundamentals and hands-on sushi.
+- **The community** How landscape and fishery shape a community's spiritual life, and mottainai: using every part of what you make.
+- **Your dish** Developing a dish around a single local ingredient, and presenting your interpretation of it to a new audience at ajimi open table.
+
+## Tell us how it went
+
+Your honest feedback shapes the next ajimi academy: what worked, what didn't, and what you'd change. The feedback survey is coming soon, and we'll share the link here and in the WhatsApp community.
+<!-- When the survey is ready, replace the sentence above with something like: Please fill in our [feedback survey](https://...), it takes about 10 minutes. -->
+
+**Your open table recipe.** If you haven't sent us your final recipe yet, please share it in the WhatsApp community. We'd love to keep a record of every dish from the week.
+
+## Photos and memories
+
+Keep adding to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you find more photos on your phone. Photos and video from our team will follow once they're edited; we'll share the link here.
+
+The albums are just for us: we won't use anything publicly without asking you first.
+
+## Stay in touch
+
+ajimi academy doesn't end on Sunday. The relationships you've built this week, with the producers, the makers and each other, are the heart of what we do, and we'd like to keep them going.
+
+- **The WhatsApp community stays open** Share what you're cooking, ask questions, and keep up with what's happening in Owase.
+- **Tell us when Owase reaches your menu** If an ingredient, technique or idea from this week finds its way into your cooking, we'd love to hear about it and share it with the people who taught you.
+- **Say thank you** Want to thank a producer or teacher? Send us a message and we'll pass it on.
+- **Come back** Owase changes with every season, from spring fish to winter citrus. You're always welcome, and we'd love to see you again.
+
+Mata ne, and see you again in Owase.
