@@ -416,7 +416,7 @@ A day trip north for five-year tamari and sake at Zaku, ending with a washoku di
 
 --> 08:00 · Leave Tenmasou · about 2.5 hr drive to Suzuka, with one stop
 
-### 09:30–10:00 · Breakfast and market stop in Tsu
+### 09:30–10:30 · Breakfast and market stop in Tsu
 Place: Roadside station in Tsu · https://share.google/e1WAldnnh41cdvYIU
 Tags: Self paid
 
@@ -424,24 +424,24 @@ Breakfast here, then a look round another farmers market further north. Compare 
 
 **Tip:** a good time to pick up breakfast supplies for Fri 23 and Sat 24.
 
---> 10:00 · Leave Tsu · 30 min drive to Suzuka
+--> 10:30 · Leave Tsu · 30 min drive to Suzuka
 
-### 10:30–12:00 · Tamari at Tokai Jozo
+### 11:00–12:30 · Tamari at Tokai Jozo
 Place: Tokai Jozo · https://maps.app.goo.gl/wCM19aWEQdv9B5rM9
 Learn: Traditional barrel fermentation, and mottainai: using every part of the product.
 Style: key
 
 Tamari is the origin of soy sauce. Here it's fermented for five years in wooden barrels, a craft that is slowly disappearing in Japan. Taste the tamari and the product made from its lees, and see mottainai in practice.
 
---> 30 min drive
+--> 15 min drive
 
-### 12:30–14:00 · Teishoku lunch at Yuzen
+### 12:45–14:15 · Teishoku lunch at Yuzen
 Place: Washoku-dokoro Yuzen, Suzuka · https://maps.app.goo.gl/z41Ff1SijFKxKPG57
 Tags: Self paid
 
 A classic teishoku set lunch at a local washoku restaurant. We've booked ahead, so service will be quick.
 
---> 30 min drive
+--> 15 min drive
 
 ### 14:30–16:30 · Zaku sake brewery
 Place: Shimizu Seizaburo Shoten (Zaku) · https://maps.app.goo.gl/kDGAr9st6DMBDNZD8
