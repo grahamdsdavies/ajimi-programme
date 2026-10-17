@@ -112,6 +112,17 @@ h2.daytitle{font-size:27px;line-height:1.25;margin-top:2px}
 .dcard p{margin:5px 0 0;font-size:14px}
 .dcard .tags{margin-top:7px}
 .notice.inset{margin:10px 0 0;max-width:62ch}
+.acc{display:grid;gap:8px;margin-top:14px}
+.acc details{background:var(--card);border:1.5px solid var(--rule);border-radius:16px 10px 18px 12px}
+.acc summary{list-style:none;cursor:pointer;padding:12px 14px;font-family:var(--display);font-weight:700;font-size:17px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"+";flex:none;font-family:var(--body);font-weight:700;font-size:20px;line-height:1;color:var(--amanatsu);transition:transform .2s}
+.acc details[open] summary::after{transform:rotate(45deg)}
+.acc details[open]{border-color:var(--ink)}
+.acc summary:focus-visible{outline:2px solid var(--amanatsu);outline-offset:2px;border-radius:12px}
+.acc details p{margin:0;padding:0 14px 14px;font-size:15px;max-width:62ch}
+mark{background:var(--amanatsu-wash);color:inherit;padding:0 3px;border-radius:4px}
+@media print{.acc details{break-inside:avoid}}
 .warn{display:flex;gap:10px;align-items:flex-start;margin:10px 0 0;padding:10px 12px;background:var(--warn-wash);border:1.5px solid var(--warn);border-radius:12px 8px 12px 10px;font-size:14px;max-width:62ch}
 .warn .ico{flex:none;color:var(--warn);margin-top:2px}
 .warn b{color:var(--warn)}
@@ -180,6 +191,7 @@ function inline(s){
   return esc(s)
     .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
     .replace(/\*\*(.+?)\*\*/g,"<b>$1</b>")
+    .replace(/==(.+?)==/g,"<mark>$1</mark>")
     .replace(/(^|[^*])\*([^*\s][^*]*?)\*/g,"$1<em>$2</em>");
 }
 const DAY_RE = /^#\s+(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\s+(\d{1,2})\s*[·\-–:]\s*(.+)$/;
@@ -207,6 +219,10 @@ function parse(src){
     if(sec.kind === "info"){
       if((m = line.match(/^##\s+(.+)$/))){ sec.blocks.push({t:"h2", text:m[1]}); flush(); continue; }
       if((m = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/))){ sec.blocks.push({t:"img", alt:m[1], src:m[2]}); flush(); continue; }
+      if((m = line.match(/^\+\s+(.*)$/))){
+        if(!block || block.t !== "acc"){ block = {t:"acc", items:[]}; sec.blocks.push(block); }
+        block.items.push(m[1]); continue;
+      }
       if((m = line.match(/^[-*]\s+(.*)$/))){
         if(!block || block.t !== "ul"){ block = {t:"ul", items:[]}; sec.blocks.push(block); }
         block.items.push(m[1]); continue;
@@ -282,6 +298,10 @@ function renderInfo(info){
       html += `<img class="ink mapsm" src="${esc(b.src)}" alt="${esc(b.alt)}">`; continue;
     }
     if(b.t === "ul"){ html += renderList(b.items); continue; }
+    if(b.t === "acc"){
+      html += `<div class="acc">${b.items.map(x=>{ const m = x.match(/^\*\*(.+?)\*\*\s*(.*)$/); return m ? `<details><summary>${inline(m[1])}</summary><p>${inline(m[2])}</p></details>` : `<details><summary>${inline(x)}</summary></details>`; }).join("")}</div>`;
+      continue;
+    }
     if(b.t === "p"){
       if(heroOpen){
         pCount++;
@@ -375,7 +395,7 @@ function show(id, scroll){
   try{ history.replaceState(null,"","#"+id) }catch(e){}
 }
 document.addEventListener("click",e=>{const b=e.target.closest("[data-go]"); if(b&&b.dataset.go) show(b.dataset.go,true)});
-window.addEventListener("beforeprint",()=>document.querySelectorAll(".page").forEach(p=>p.hidden=false));
+window.addEventListener("beforeprint",()=>{document.querySelectorAll(".page").forEach(p=>p.hidden=false);document.querySelectorAll(".acc details").forEach(d=>d.open=true);});
 window.addEventListener("afterprint",()=>show((location.hash||"#start").slice(1),false));
 
 fetch("programme.md",{cache:"no-cache"})

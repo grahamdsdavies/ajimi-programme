@@ -18,6 +18,7 @@ Change the words, save, and the page updates about a minute after it is pushed.
   Tags: Lunch included; Optional; Self paid    (separate with ;)
   Style: key                    key = highlighted session, free = free time (dotted line)
   ! **Heads up.** Text           a warning box inside a session (start the line with !)
+  + **Title** Text              (info page) a box you tap to open; ==word== highlights a word
   --> 09:00 · Town hall bus ...  a departure: highlighted, with the time and a bus/car/walk icon
                                 (any lines under it, like Group: A or a sentence, attach to it)
   --> 15 min drive              a travel line between sessions (no time)
@@ -87,56 +88,14 @@ We will split you into these two groups once the program has started.
 
 ## How we work
 
-- Early mornings
-- Secret ingredient
-- Even the bones
-- Three steps ahead
-- Itadakimasu
-- The washing up
+Six pillars that define what ajimi academy stands for, how we plan the week and what we look for in the people who join us. Tap one to read more.
 
-<!-- **Early mornings** 
-Before the sun has risen, fishermen of Owase are already on the water. To learn from those around us, we need to break our own schedules and show adaptability, a willingness to set our rhythm aside and meet new places and new people on their own terms.
-
-<aside>
-<img src="/icons/burst_brown.svg" alt="/icons/burst_brown.svg" width="40px" />
-
-**Secret ingredient**
-A dish is never just the collection of its ingredients; it is an expression of the soil, season and hands that brought it to life. It is curiosity that sends us looking for what secrets take a dish from “delicious” to something beyond. 
-
-</aside>
-
-<aside>
-<img src="/icons/bone_brown.svg" alt="/icons/bone_brown.svg" width="40px" />
-
-**Even the bones**
-A whole fish gives more than a fillet, and it is creativity that turns what is often discarded into surprising delicacies. For us, sustainability and creativity are not separate values; one makes the other possible.
-
-</aside>
-
-<aside>
-<img src="/icons/thought_brown.svg" alt="/icons/thought_brown.svg" width="40px" />
-
-**Three steps ahead**
-
-A great dish begins long before the first cut. Cooking as a craft involves caring about the whole process; the budget, team, work environment. We strive to stay curious about how to do each step better, while always thinking ahead, whether autonomously or as a team.
-
-</aside>
-
-<aside>
-<img src="/icons/dining_brown.svg" alt="/icons/dining_brown.svg" width="40px" />
-
-**Itadakimasu**
-Said before every meal in Japan, itadakimasu is an acknowledgement that nothing on the plate arrived by one person's hand alone. To cook with respect is to see the full picture before the first bite, and to let that shape the decisions that follows.
-
-</aside>
-
-<aside>
-<img src="/icons/soap_brown.svg" alt="/icons/soap_brown.svg" width="40px" />
-
-**The washing up**
-It is the part of cooking that happens after the applause, when what remains is the clean up after delicious bites, where the movement of a team really tells you something about their way of working together. We believe we are greater than the sum of our parts, and that the best food comes from kitchens where collaboration is instinctive rather than assigned. 
-
-</aside> -->
++ **Early mornings** Before the sun has risen, the fishermen of Owase are already on the water. To learn from those around us, we need to break our own schedules and show ==adaptability==: a willingness to set our rhythm aside and meet new places and new people on their own terms.
++ **Secret ingredient** A dish is never just the collection of its ingredients; it is an expression of the soil, season and hands that brought it to life. It is ==curiosity== that sends us looking for the secrets that take a dish from "delicious" to something beyond.
++ **Even the bones** A whole fish gives more than a fillet, and it is ==creativity== that turns what is often discarded into surprising delicacies. For us, sustainability and creativity are not separate values; one makes the other possible.
++ **Three steps ahead** A great dish begins long before the first cut. Cooking as a ==craft== means caring about the whole process: the budget, the team, the work environment. We strive to stay curious about how to do each step better, while always thinking ahead, whether on our own or as a team.
++ **Itadakimasu** Said before every meal in Japan, itadakimasu is an acknowledgement that nothing on the plate arrived by one person's hand alone. To cook with ==respect== is to see the full picture before the first bite, and to let that shape the decisions that follow.
++ **The washing up** It is the part of cooking that happens after the applause: the clean-up after the last delicious bites, where the way a team moves tells you something about how they work together. We believe we are greater than the sum of our parts, and that the best food comes from kitchens where ==collaboration== is instinctive rather than assigned.
 
 ## Good to know
 
