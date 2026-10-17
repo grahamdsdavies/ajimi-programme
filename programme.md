@@ -88,9 +88,9 @@ We will split you into these two groups once the program has started.
 - **17** dish development
 - **49** contact hours
 
-## How we work
+## Programme pillars
 
-Six pillars that define what ajimi academy stands for, how we plan the week and what we look for in the people who join us. Tap one to read more.
+These six pillars define what ajimi academy stands for and has helped us shape the programme we share with you. Tap one to read more.
 
 + **Early mornings** Before the sun has risen, the fishermen of Owase are already on the water. To learn from those around us, we need to break our own schedules and show ==adaptability==: a willingness to set our rhythm aside and meet new places and new people on their own terms.
 + **Secret ingredient** A dish is never just the collection of its ingredients; it is an expression of the soil, season and hands that brought it to life. It is ==curiosity== that sends us looking for the secrets that take a dish from "delicious" to something beyond.
@@ -597,7 +597,7 @@ Thank you for spending the week with us. Owase opened its boats, forests, fields
 
 ## What you learned
 
-49 contact hours of field study, workshops and dish development, from the people who know Owase best.
+49 contact hours of field study, workshops and dish development.
 
 - **The sea** How Owase's fish auction works, how a fishmonger buys and prepares fish, and how set-net fishing links the forest to the sea.
 - **The mountains** Foraging seasonal wild ingredients with care, the difference between plantation and biodiverse forest, and the culture of wild game.
