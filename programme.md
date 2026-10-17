@@ -101,6 +101,8 @@ Six pillars that define what ajimi academy stands for, how we plan the week and 
 
 Our photo and video team will be with us most days, and TV channels and Newspapers will cover certain program points. If you'd rather not be filmed at any point, just tell one of us.
 
+**Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can relive the week together. The album is just for us: we won't use anything publicly without asking you first.
+
 **Reach us in the ajimi WhatsApp community.** It's the quickest way to get hold of the team during the week, whether you're running late, lost or need something.
 
 # Sun 18 · Arrive and meet
