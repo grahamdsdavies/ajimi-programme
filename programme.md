@@ -38,7 +38,7 @@ This programme has one day per page: tap a date above to see.
 
 ![Colourful fishermen's big-catch flags strung across a canal in Owase under a clear blue sky](owase.jpg)
 
-## Pack for the weather and frequent moves.
+## Get Prepped.
 
 - **Comfortable walking shoes** Nothing steep, but we're on our feet a lot, and will walk off road in forests at some points.
 - **A rain jacket** Owase is one of the rainiest towns in Japan. Be prepared for sudden rain at any time.
@@ -151,6 +151,7 @@ A day in the hills of Kumano: a farmers market, a yuzu grove and foraging with C
 - Included meals: Breakfast, lunch, dinner
 
 > **Long day.** Most of the driving is today. Bring water, a snack and your rain jacket into the car.
+>
 > **Public Bath Visit.** Bring a towel, toiletries if needed and a change of clothes if you would like to go in.
 
 === Morning in two groups
@@ -414,6 +415,7 @@ A day trip north for five-year tamari and sake at Zaku, ending with a washoku di
 - Included meals: Dinner
 
 > **Full day for everyone.** We travel as one group, so please join the whole day. Bring everything you need for the day; we won't be back until late. Breakfast is on the road this morning, so bring cash.
+> 
 > **Chef Worksheet Deadline** The deadline for submitting your chef worksheet is 11am today. Use the time in the car to chat and finalise. Submission method: notifying the general chef group chat (please tag Cailyn!).
 
 --> 08:00 · Leave Tenmasou · about 2.5 hr drive to Suzuka, with one stop
@@ -441,7 +443,7 @@ Tamari is the origin of soy sauce. Here it's fermented for five years in wooden 
 Place: Washoku-dokoro Yuzen, Suzuka · https://maps.app.goo.gl/z41Ff1SijFKxKPG57
 Tags: Self paid
 
-A classic teishoku set lunch at a local washoku restaurant. We've booked ahead, so service will be quick.
+A classic teishoku set lunch at a local washoku restaurant.
 
 --> 15 min drive
 
@@ -520,6 +522,7 @@ Share your dish and your story with locals who come to taste familiar Owase flav
 - Included meals: Lunch, after-party dinner
 
 > **Full day for everyone.** Everyone is at the venue from 09:00 until pack-down is done.
+>
 > **Breakfast is self-organised today.** Have something at Tenmasou before the 08:30 bus.
 
 --> 08:30 · Town hall bus from the [bus meeting point](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA) · 30 min
