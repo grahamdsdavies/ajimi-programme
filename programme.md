@@ -49,6 +49,7 @@ A guesthouse looked after by Matsui-san and NPO Tenmaura Hyakunin-kai. Our eveni
 ## Transport
 
 **Vehicles** We will move around using a combination of private vehicles and the city bus. This is marked in the program.
+
 **Bus meeting point** · [Open map](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
 When we travel on the Owase City Hall bus departing Tenmasou, we meet here. This is marked in the program.
 
