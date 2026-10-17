@@ -29,27 +29,34 @@ Text: **bold**, *italic*, [link text](https://...). A blank line starts a new pa
 
 18–25 October · Owase and the surrounding region
 
-A week-long culinary academy. Your teachers are the fishermen, farmers, foragers and makers of Owase, and the week builds towards a dish of your own at ajimi open table. One page per day: tap a date above.
+Welcome to ajimi academy, a week-long culinary academy held in Owase. Your teachers are the fishermen, farmers, foragers and makers of Owase, and the week builds towards a dish of your own at ajimi open table.
+
+This program has one day per page: tap a date above to see.
 
 ![Hand-drawn map of the Kii Peninsula with Owase marked on the coast of Mie Prefecture](map.png)
 
-## Pack for the weather and the walks
+## Pack for the weather and frequent moves.
 
-- **Comfortable walking shoes** Even on forest paths. Nothing steep, but we're on our feet a lot.
-- **A rain jacket** Owase is one of the rainiest towns in Japan. Be ready for drips any day.
-- **Omiyage, if you brought some** If you've brought a small gift from home, sharing it with the people we visit is always a nice gesture.
+- **Comfortable walking shoes** Nothing steep, but we're on our feet a lot, and will walk off road in forests at some points.
+- **A rain jacket** Owase is one of the rainiest towns in Japan. Be prepared for sudden rain at any time.
+- **Omiyage (If you brought some!)** If you've brought a small gift from home, remember to bring with you and share with the producers and teachers that resonate with you as we go along.
 
 ## Where you stay
 
 **Tenmasou** · [Open map](https://maps.app.goo.gl/mHF1S3rwzbKM4MMB7)
 A guesthouse looked after by Matsui-san and NPO Tenmaura Hyakunin-kai. Our evening kitchen sessions happen here.
 
+## Transport
+
+**Vehicles** We will move around using a combination of private vehicles and the city bus. This is marked in the program.
 **Bus meeting point** · [Open map](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
-When we travel on the Owase City Hall bus, we meet here. Each day's page says when.
+When we travel on the Owase City Hall bus departing Tenmasou, we meet here. This is marked in the program.
 
 ## Pace of the week
 
-Most days run as a group. **Tue 20 and Wed 21 are flexible:** skip any session you like, rest, or explore on your own. Just tell us in the WhatsApp community. **Thu 22 in Suzuka and Sat 24, open table day, are full days for everyone**, so use the flexible days to be well rested for them. Flexible days have a dot in the date bar.
+Most days run as a group. **Tue 20 and Wed 21 are flexible:** feel free to skip any session you like, rest, or explore on your own. Just let us know in the whatsapp group chats. We will do our best to accomodate your wishes but our priority will be to running the program so pickups/dropoffs will have to be arranged as we go. Flexible days have a dot in the date bar.
+
+**Thu 22 in Suzuka and Sat 24, open table day, are full days for everyone**, so use the flexible days to be well rested for them. 
 
 This week is yours to enjoy in the way that suits you.
 
@@ -60,13 +67,13 @@ The fish auction only fits half of us at a time, so you go once. The other group
 - **Group A · Mon 19** Auction at 07:00, free morning on Wed 21
 - **Group B · Wed 21** Auction at 07:00, free morning on Mon 19
 
-We'll tell you which group you're in through the WhatsApp community.
+We will split you into these two groups once the program has started.
 
 ## Meals
 
-**Breakfast:** from Mon 19 to Wed 21 we lay out TKG (tamago kake gohan) at Tenmasou: eggs, rice and miso soup, with tea and coffee. Bring your own toppings as you pick things up during the week. On Thu 22 we stop for breakfast on the road (self-paid). On Fri 23 and Sat 24 breakfast is your own, so pick up supplies at the markets we visit earlier in the week. Our farewell breakfast on Sun 25 is on us.
+**Breakfast:** from Mon 19 to Wed 21 we will provide TKG (tamago kake gohan) at Tenmasou: eggs, rice and miso soup, with tea and coffee. Bring your own toppings as you pick things up during the week. On Thu 22 we stop for breakfast on the road (self-paid). On Fri 23 and Sat 24 breakfast is self organised, so please pick up supplies at the markets we visit earlier in the week. The farewell breakfast on Sun 25 is included.
 
-**Lunch and dinner:** dinners are included every night and most lunches are included. Two are self-paid (Tue 20, Thu 22), so keep some cash on you.
+**Lunch and Dinner:** Dinners are included every night and most lunches are included. Two are self-paid (Tue 20, Thu 22), so keep some cash on you.
 
 ## Your course
 
