@@ -32,7 +32,7 @@ Text: **bold**, *italic*, [link text](https://...). A blank line starts a new pa
 
 Welcome to ajimi academy, a week-long culinary academy held in Owase. Your teachers are the fishermen, farmers, foragers and makers of Owase, and the week builds towards a dish of your own at ajimi open table.
 
-This program has one day per page: tap a date above to see.
+This programme has one day per page: tap a date above to see.
 
 ![Hand-drawn map of the Kii Peninsula with Owase marked on the coast of Mie Prefecture](map.png)
 
@@ -49,10 +49,10 @@ A guesthouse looked after by Matsui-san and NPO Tenmaura Hyakunin-kai. Our eveni
 
 ## Transport
 
-**Vehicles** We will move around using a combination of private vehicles and the city bus. This is marked in the program.
+**Vehicles** We will move around using a combination of private vehicles and the city bus. This is marked in the programme.
 
 **Bus meeting point** · [Open map](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
-When we travel on the Owase City Hall bus departing Tenmasou, we meet here. This is marked in the program.
+When we travel on the Owase City Hall bus departing Tenmasou, we meet here. This is marked in the programme.
 
 ## Pace of the week
 
@@ -135,7 +135,7 @@ Your first taste of Owase. Chef Taro welcomes you with temaki sushi, a festive h
 
 Group A: early start tomorrow. We leave for the fish auction at 06:40.
 
-# Mon 19 · Market, mountain and wild food
+# Mon 19 · Kumano Adventure
 
 A day in the hills of Kumano: a farmers market, a yuzu grove and foraging with Chef Kazuki, then cooking what we found.
 
@@ -227,12 +227,12 @@ Learn: Cooking with wild ingredients and the day's catch.
 Tags: Dinner included
 Style: key
 
-A free space to experiment hands-on with the day's finds: foraged plants, fresh fish. No recipes, no goals. It's up to all of you in the kitchen what the ingredients turn into. A local might pop by for a bite too.
+A free space to experiment hands-on with the day's finds: foraged plants, fresh fish. It's up to all of you in the kitchen what the ingredients turn into. A local might pop by for a bite too.
 
-# Tue 20 · Sea, shrine and forest
+# Tue 20 · Spirituality and Connected Ecosystems
 Flexible: yes
 
-Owase's mountains and sea as one connected system: the fishermen's shrine festival, a talk at City Hall, a walk in a recovering forest and wild game with a local hunter.
+Owase's people, mountains and sea as one connected system: the fishermen's festival, ecosystems in a recovering forest and wild game with a local hunter.
 
 - Start: 08:30
 - Finish: about 21:30
@@ -256,7 +256,7 @@ Learn: How landscape and fishery shape a community's spiritual life and ritual.
 Tags: Dress respectfully
 Style: key
 
-Join Owase's fishing community for their annual grand festival (reitaisai), praying for a big catch and safe seas. Witness the ritual, the blessing of the boats and harbour, and the fishing boat parade. A rare look at how closely faith and fishery are woven together here. We're joining through Iwasaki-san.
+Join Owase's fishing community for their annual grand festival (reitaisai), praying for a big catch and safe seas. Witness the ritual, the blessing of the boats and harbour, and the fishing boat parade. A rare look at how closely spirituality and fishery are woven together here.
 
 --> 15 min drive
 
@@ -284,7 +284,7 @@ Learn: Sustainable forestry, and the difference between plantation and biodivers
 Tags: Forest path
 Style: key
 
-Walk into Minna no Mori with Shibayama-san and feel the difference between a timber plantation and a forest returning to biodiversity. See first-hand how Owase is restoring its forests, and in turn its sea.
+Walk into Minna no Mori with Shibayama-san and feel the difference between a timber plantation and a forest returning to biodiversity. See first-hand how Owase is approaching its forests, and in turn its sea.
 
 --> 30 min drive
 
@@ -293,12 +293,12 @@ Place: Owase Central Community Hall kitchen · https://maps.app.goo.gl/kH3NfJ5E2
 Learn: The culture of wild game meat and how landscape, labour and food systems connect.
 Style: key
 
-Honest stories about the rewards and struggles of wild game in Owase. Depending on the day's catch, we might pick up a knife and break down some meat together.
+Honest stories about the rewards and struggles of wild game in Owase. If we are lucky with the day's catch, we might be able to pick up a knife and break down some meat together. 🤞
 
 ### 17:45–18:30 · Free time
 Style: free
 
-Rest, recharge or wander before the evening's kitchen session.
+Rest or explore before the evening's kitchen session.
 
 ### 18:30–21:30 · Kitchen session with Chef Taro and Yamasaki-san
 Place: Tenmasou · https://maps.app.goo.gl/mHF1S3rwzbKM4MMB7
@@ -306,7 +306,7 @@ Tags: Dinner included
 
 Another free space to experiment with what we've gathered. No recipes, no goals. Local producers, chefs and the people you've met this week are invited, so expect company.
 
-# Wed 21 · Fire, fields and citrus
+# Wed 21 · Local specialities
 Flexible: yes
 
 Binchotan at the kiln, lunch in the fields, a first look at the open table venue and two of Owase's fruit growers.
@@ -381,12 +381,12 @@ Oka-san shares his passion for finger lime, a newcomer to Owase's landscape.
 Place: Amanatsuya Hirayama Farm · https://maps.app.goo.gl/HY3W7QGANZGhoL7U7
 Learn: Amanatsu, one of Owase's signature fruits, and its place in the city's identity.
 
-Meet amanatsu, one of Owase's signature fruits. Hear why this citrus matters so much to the city and taste what it has to offer.
+Hear from farmers directly about this citrus and taste what it has to offer.
 
 ### 17:00–18:30 · Free time
 Style: free
 
-Rest, recharge or explore before the evening in the kitchen.
+Rest or explore before the evening in the kitchen.
 
 ### 18:30–21:30 · Kitchen session and sushi with Chef Akiko
 Place: Tenmasou · https://maps.app.goo.gl/mHF1S3rwzbKM4MMB7
@@ -427,7 +427,7 @@ Place: Tokai Jozo · https://maps.app.goo.gl/wCM19aWEQdv9B5rM9
 Learn: Traditional barrel fermentation, and mottainai: using every part of the product.
 Style: key
 
-Tamari is the origin of soy sauce. Here it's fermented for five years in wooden barrels, a craft that is slowly disappearing in Japan. Taste the tamari and the product made from its lees, and see mottainai in practice: honouring every part of what you make.
+Tamari is the origin of soy sauce. Here it's fermented for five years in wooden barrels, a craft that is slowly disappearing in Japan. Taste the tamari and the product made from its lees, and see mottainai in practice.
 
 --> 15 min
 
@@ -450,13 +450,13 @@ Place: Zaku
 Learn: Washoku fundamentals, and the thinking behind pairing sake with food.
 Tags: Dinner included
 
-Learn a few washoku classics in a cooking presentation, then sit down as the lesson turns into dinner. Each dish is paired with sake, so you can taste how the two lift each other.
+Learn a few washoku classics in a cooking presentation, then sit down as the lesson turns into dinner. Each dish is paired with sake, so you can taste how the two complement each other.
 
 --> 19:30 · Leave Zaku · about 2.5 hr drive back to Owase, home around 22:00
 
 # Fri 23 · Prep day
 
-Your day in the kitchen. Take everything you've seen, tasted and learned and shape it into the dish you'll serve tomorrow.
+Prep day for open table. Take everything you've seen, tasted and learned and shape it into the dish you'll share at open table.
 
 - Start: 09:00
 - Finish: about 21:30
@@ -521,7 +521,7 @@ Share your dish and your story with locals who come to taste familiar Owase flav
 Place: Kumano Kodo Centre · https://maps.app.goo.gl/HbxfYP9DbD4QFWae8
 Tags: Lunch included
 
-Finish your mise en place and set up your stall. A makanai lunch is provided at the venue; we'll share the timing on the day.
+Finish your mise en place and set up your stall. A makanai is provided, don't forget to rest and eat!
 
 ### 11:30–15:30 · ajimi open table
 Place: Kumano Kodo Centre · https://maps.app.goo.gl/HbxfYP9DbD4QFWae8
@@ -545,11 +545,11 @@ Everyone cleans down their own station before we leave the venue.
 Place: Yumekodo no Yu · https://www.google.com/maps/search/?api=1&query=%E5%A4%A2%E5%8F%A4%E9%81%93%E3%81%AE%E6%B9%AF%20%E5%B0%BE%E9%B7%B2
 Style: free
 
-You've earned it. Rest, soak in the onsen next door, or head back to Tenmasou to freshen up before the party.
+Otsukare-sama-deshita! Rest, soak in the bath next door, or meander straight down to the after party.
 
 ### 17:00–23:00 · ajimi after party
 Place: Owase Marché · https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%82%8F%E3%81%9B%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E5%B0%BE%E9%B7%B2
-Tags: Dinner and one drink included
+Tags: Dinner and welcome drink included
 Style: key
 
 Let's celebrate the week together. Doors open at 17:00; come along whenever you're ready. Music from E.O.U, eijin, Shinpei (Motosaka Shuzo) and DJ Lawson + Nama Hamu, food by CURRYJOCKEY and Sonzai Hanten, sound by Kengo Kewa and Tanaka, lasers by 1∞ch. Free entry and open to everyone, so the people you've met all week will be there.
