@@ -36,7 +36,7 @@ Welcome to ajimi academy, a week-long culinary academy held in Owase. Your teach
 
 This programme has one day per page: tap a date above to see.
 
-![Hand-drawn map of the Kii Peninsula with Owase marked on the coast of Mie Prefecture](map.png)
+![Colourful fishermen's big-catch flags strung across a canal in Owase under a clear blue sky](owase.jpg)
 
 ## Pack for the weather and frequent moves.
 
@@ -106,6 +106,8 @@ Our photo and video team will be with us most days, and TV channels and newspape
 **Share your photos.** Add your photos and videos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you go, so everyone on the course and the team can see the week together. We won't use any images shared here publicly without permission. Consider this a place to share the casual, behind-the-scenes photos of the programme.
 
 **Reach us in the ajimi WhatsApp community.** It's the quickest way to get hold of the team during the week, whether you're running late, lost or need something.
+
+![Hand-drawn map of the Kii Peninsula with Owase marked on the coast of Mie Prefecture](map.png)
 
 # Sun 18 · Arrive and meet
 
