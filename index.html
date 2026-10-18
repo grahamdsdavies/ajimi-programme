@@ -368,12 +368,12 @@ function renderDay(d){
   </section>`;
 }
 
-const AFTER_FROM = "2026-10-18";
+const AFTER_FROM = "off"; /* set to a date like "2026-10-25" to show the After page from that day (Japan time); "off" keeps it hidden */
 function build(doc){
   let jst = "";
   try{ jst = new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo"}).format(new Date()); }catch(e){}
-  /* After-the-week pages stay hidden until the programme starts (18 Oct, Japan time). Add ?preview to the URL to see them early. */
-  const showAfter = jst >= AFTER_FROM || /[?&]preview\b/.test(location.search);
+  /* After-the-week pages stay hidden until AFTER_FROM (Japan time). Add ?preview to the URL to see them early. */
+  const showAfter = (AFTER_FROM !== "off" && jst >= AFTER_FROM) || /[?&]preview\b/.test(location.search);
   const after = (showAfter ? doc.after : []).map((a,i)=>({id:i?"after"+(i+1):"after",label:"End",small:"After",nav:"After the week",page:a}));
   const order = [{id:"start",label:"Start",small:"Info",nav:"Info"}, ...doc.days.map(d=>({id:d.id,label:d.n,small:d.dow,flex:d.flex})), ...after];
   const pages = document.getElementById("pages");
