@@ -248,16 +248,16 @@ Owase's people, mountains and sea as one connected system: the fishermen's festi
 
 > **Flexible day.** Join as much or as little as you like. If you would rather skip a session to rest, wander on your own or think through your open table dish, just let us know in the WhatsApp community and we will work around you. Thursday in Suzuka and Saturday's open table are full days for everyone, so use today to arrive at those well rested.
 
-### 07:30–08:30 · Breakfast with Taro
+### 08:00–09:00 · Breakfast with Taro
 Place: Tenmasou · https://maps.app.goo.gl/mHF1S3rwzbKM4MMB7
 Tags: Optional, Breakfast included
 Style: free
 
-Ease into the day with coffee brewed by Taro. Bounce around ideas for open table, or simply wake up slowly.
+Bounce around ideas for open table, or simply wake up slowly.
 
---> 08:30 · Walk to the shrine (30 min), or take the 08:45 town hall bus from the [bus meeting point](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
+--> 09:00 · Walk to the shrine (30 min), or take the 09:15 town hall bus from the [bus meeting point](https://maps.app.goo.gl/b1yw8v3onUjGsYoYA)
 
-### 09:00–10:15 · Ebisu Shrine festival with the fishermen
+### 09:30–10:15 · Ebisu Shrine festival with the fishermen
 Place: Ebisu Shrine · https://maps.app.goo.gl/TYxHLtUwpwYqJJ7DA
 Learn: How landscape and fishery shape a community's spiritual life and ritual.
 Tags: Dress respectfully
