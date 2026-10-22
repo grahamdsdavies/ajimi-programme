@@ -596,12 +596,11 @@ Second run. Check out of Tenmasou before you leave.
 
 Thank you · Owase 2026
 
-Thank you for spending the week with us. Owase opened its boats, forests, fields and kitchens to you, and we hope a little of it travels home with you in the way you cook.
+Thank you for spending the week with us. Owase opened its markets, forests, fields and kitchens to you, and we hope a little of it travels home with you in the way you cook.
 
-<!-- Add a photo of Owase here: put the file next to programme.md and change the name below. Photos (.jpg) get a rounded frame. -->
-![Colourful fishermen's big-catch flags strung across a canal in Owase under a clear blue sky](owase.jpg)
+![The Owase 2026 cohort and team together outside a timber house in the hills above Owase](group.jpg)
 
-## What you learned
+## Programme recap
 
 49 contact hours of field study, workshops and dish development.
 
@@ -614,24 +613,24 @@ Thank you for spending the week with us. Owase opened its boats, forests, fields
 
 ## Tell us how it went
 
-Your honest feedback shapes the next ajimi academy: what worked, what didn't, and what you'd change. The feedback survey is coming soon, and we'll share the link here and in the WhatsApp community.
-<!-- When the survey is ready, replace the sentence above with something like: Please fill in our [feedback survey](https://...), it takes about 10 minutes. -->
+Your honest feedback shapes what the next ajimi academy can be; we would love to hear what worked, what didn't, and what you'd change. We'll share a link to the feedback survey in the WhatsApp community once it's ready.
 
 **Your open table recipe.** If you haven't sent us your final recipe yet, please share it in the WhatsApp community. We'd love to keep a record of every dish from the week.
 
 ## Photos and memories
 
-Keep adding to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6) as you find more photos on your phone. Photos and video from our team will follow once they're edited; we'll share the link here.
+Please add your behind-the-scenes photos to our [shared album](https://photos.app.goo.gl/vtjoj1hQKm8p326w6). We'd love to see Owase through your eyes, and none of them will be shared publicly without your permission.
 
-The albums are just for us: we won't use anything publicly without asking you first.
+Photos and video from our team will follow once they're edited; we'll share the links with you in the WhatsApp community.
 
 ## Stay in touch
 
-ajimi academy doesn't end on Sunday. The relationships you've built this week, with the producers, the makers and each other, are the heart of what we do, and we'd like to keep them going.
+As the inaugural edition of ajimi academy, we are excited to see how it builds and grows, and how the alumni community grows from here. The relationships built this week, with the producers, the makers and each other, are the heart of what we do, and we do hope that we can continue to forge these together moving forward.
 
-- **The WhatsApp community stays open** Share what you're cooking, ask questions, and keep up with what's happening in Owase.
+- **The WhatsApp community stays open** Share what you're cooking, ask questions, and reach out any time.
 - **Tell us when Owase reaches your menu** If an ingredient, technique or idea from this week finds its way into your cooking, we'd love to hear about it and share it with the people who taught you.
-- **Say thank you** Want to thank a producer or teacher? Send us a message and we'll pass it on.
-- **Come back** Owase changes with every season, from spring fish to winter citrus. You're always welcome, and we'd love to see you again.
+- **Come back** Owase changes with every season, from spring fish to winter citrus. We encourage you to consider visiting again at a different time, and also join other future ishinoko and ajimi programmes and events.
 
-Mata ne, and see you again in Owase.
+Thank you for all of your contributions to ajimi academy. We'll see you again soon. Mata ne!
+
+![Fishing boats flying colourful big-catch flags come into Owase harbour, with misty mountains behind](harbour.jpg)
